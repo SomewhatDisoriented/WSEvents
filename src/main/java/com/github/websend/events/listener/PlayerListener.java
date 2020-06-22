@@ -31,14 +31,6 @@ public class PlayerListener implements Listener{
     }
     
     @EventHandler
-    public void onEvent(PlayerAchievementAwardedEvent e){
-        if(config.isEventEnabled(e.getEventName())){
-            String[] array = {"event", e.getEventName()};
-            Main.doCommand(array, e.getPlayer());
-        }
-    }
-
-    @EventHandler
     public void onEvent(PlayerAnimationEvent e){
         if(config.isEventEnabled(e.getEventName())){
             String[] array = {"event", e.getEventName()};
