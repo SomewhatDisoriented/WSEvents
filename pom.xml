@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.github.skyrimcarrier</groupId>
+  <groupId>com.github.websend</groupId>
   <artifactId>WSEvents</artifactId>
   <version>0.7-SNAPSHOT</version>
   <packaging>jar</packaging>
@@ -26,12 +26,14 @@
     <dependency>
       <groupId>com.github.websend</groupId>
       <artifactId>Websend</artifactId>
-      <version>2.5.7-SNAPSHOT</version>
+      <version>4.2</version>
     </dependency>
     <dependency>
-      <groupId>org.bukkit</groupId>
-      <artifactId>bukkit</artifactId>
-      <version>1.9-R0.1-SNAPSHOT</version>
+      <groupId>org.spigotmc</groupId>
+      <artifactId>minecraft-server</artifactId>
+      <version>1.15.2-SNAPSHOT</version>
+      <scope>system</scope>
+      <systemPath>${basedir}/lib/spigot-api-1.15.2-R0.1-SNAPSHOT.jar</systemPath>
     </dependency>
   </dependencies>
 </project>
