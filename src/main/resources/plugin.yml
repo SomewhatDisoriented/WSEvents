@@ -1,6 +1,6 @@
 name: WSEvents
 main: com.github.websend.events.Main
-version: 0.8
+version: 0.9
 description: Websend plug-in to enable commands on events.
 author: Waterflames
 api-version: 1.15
